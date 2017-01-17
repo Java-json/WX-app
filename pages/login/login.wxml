@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{motto}}</text>
+  </view>
+  
+  <view>
+    <form>
+      账号：<input class="input" placeholder="请输入账号" type="text"/>
+      密码：<input class="input" placeholder="请输入密码" type="password"/>
+      <button bindtap="login">登录</button>
+    </form>
+  </view>
+</view>

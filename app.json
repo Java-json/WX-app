@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/exam/exam",
+    "pages/train/train",
+    "pages/score/score",
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#5fd6c2",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#09bb07",
+    "color": "#353535",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "主页",
+        "iconPath": "images/login.png",
+        "selectedIconPath": "images/login.png"
+      },
+      {
+        "pagePath": "pages/exam/exam",
+        "text": "考试",
+        "iconPath": "images/main.png",
+        "selectedIconPath": "images/main.png"
+      },
+      {
+        "pagePath": "pages/train/train",
+        "text": "练习",
+        "iconPath": "images/log.png",
+        "selectedIconPath": "images/log.png"
+      },
+      {
+        "pagePath": "pages/score/score",
+        "text": "成绩",
+        "iconPath": "images/score.png",
+        "selectedIconPath": "images/score.png"
+      }
+    ]
+  }
+}

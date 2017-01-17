@@ -1,0 +1,14 @@
+<view class="container">
+  <view hidden="{{flag ? false : true}}"  bindtap="bindViewTap"   
+    class="userinfo">
+    <image class="userinfo-avatar" src="../../images/bg.png" 
+      background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickname}}</text>
+  </view>
+  
+  <view hidden="{{flag ? true : false}}">
+    <form>
+      <button bindtap="userLogin">登录</button>
+    </form>
+  </view>
+</view>
